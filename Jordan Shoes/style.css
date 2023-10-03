@@ -6,10 +6,7 @@ html {
 
 body {
     background-color: #ffffff;
-}
-
-html, body {
-    width: 100%;
+    margin: 0;
 }
 
 .topo {
@@ -19,6 +16,7 @@ html, body {
     background: #00AEFF;
     padding: 0 8rem;
     height: 3rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title {
@@ -29,77 +27,157 @@ html, body {
     color: black;
     padding: 0 10rem;
     height: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
 .banner {
-    position: absolute;
+    position: relative; 
     width: 100%;
-    height: 40rem;
+    height: 20rem; 
     background-position: center;
-    filter: brightness(50%);
+}
 
+.banner_image {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-image: url(./wallpaper.jpeg);
+    filter: brightness(40%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .texto {
-    padding: 0 3rem;
-    height: 20rem;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 30rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    background-image: url(./wallpaper.jpeg);
+    justify-content: flex;
+    align-items: center;
     color: #F9F9F9;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 165px;
 }
-
-.banner {
-    background-image: url(./wallpaper.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;~
-    }
-
 
 .destaque {
     max-width: 1440px;
     margin: 2rem auto 0;
     display: flex;
-    flex-direction: column; 
-    justify-content: column;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    }
+    font-family: 'Montserrat', sans-serif;
+    filter: brightness(100%);
+}
 
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem 8rem;
+    margin-bottom: 10rem;
+    padding: 0 10rem;
+}
 
-    .cards {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 8rem 8rem;
-        margin-bottom: 10rem;
-        padding: 0 10rem;
-    }
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px #7a7a7a;
+}
 
-    
-    .card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 2px 2px 8px #7a7a7a;
-       }
-#img1{
+/* Estilos para as imagens */
+.image {
     height: 300px;
-    background-image: url(./jordan-green.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#img1 {
+    background-image: url('./jordan-green.png');
+}
+
+#img2 {
+    background-image: url('./jordan-tropical.png');
+}
+
+#img3 {
+    background-image: url('./jordan-red.png');
+}
+
+#img4 {
+    background-image: url('./jordan-purple.png');
+}
+
+#img5 {
+    background-image: url('./jordan-gray.png');
+}
+
+#img6 {
+    background-image: url('./jordan-gray-camo.png');
+}
+
+#img7 {
+    background-image: url('./jordan-citrus.png');
+}
+
+#img8 {
+    background-image: url('./jordan-carbon.png');
+}
+
+.image {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_image, .texto {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.image-container {
+    background-color: #EBE9EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 8rem;
     
+    
+}
+
+.image {
+    width: 100%;
+}
+
 footer {
     padding: 0 8rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#00AEFF ;
-    color: black; 
+    background-color: #00AEFF;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
