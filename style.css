@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+html, body {
+    width: 100%;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00AEFF;
+    padding: 0 8rem;
+    height: 3rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    color: black;
+    padding: 0 10rem;
+    height: 1rem;
+}
+
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 40rem;
+    background-position: center;
+    filter: brightness(50%);
+
+}
+
+.texto {
+    padding: 0 3rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./wallpaper.jpeg);
+    color: #F9F9F9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    background-image: url(./wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;~
+    }
+
+
+.destaque {
+    max-width: 1440px;
+    margin: 2rem auto 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: column;
+    align-items: center;
+    }
+
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8rem 8rem;
+        margin-bottom: 10rem;
+        padding: 0 10rem;
+    }
+
+    
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 8px #7a7a7a;
+       }
+#img1{
+    height: 300px;
+    background-image: url(./jordan-green.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    
+footer {
+    padding: 0 8rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00AEFF ;
+    color: black; 
+}
